@@ -43,9 +43,14 @@ There can be many ways to calculate this ‘Simpleh’ which are discussed in th
 
 
 # Building 
-!!For WINDOWS check in the python installer if the  path variables are added. Otherwise you are not gonna have a great timne with pip .Alternativly you can repair your pyhton installion and check that mark there when it ask you if you want to add variables to the path.
- If you have problems this link can help you https://www.activestate.com/resources/quick-reads/how-to-install-pip-on-windows/
-Dependencies
+
+## WINDOWS only 
+!!For WINDOWS don't forget to check in the python installer if the path variables are added. Otherwise you are not gonna have a great timne with pip.
+Alternatively you can repair your python installation and check when it ask you if you want to add variables to the path.
+ If you have problems with pip you can try this https://www.activestate.com/resources/quick-reads/how-to-install-pip-on-windows/
+
+
+## Dependencies
 1.Python version > 3.0
 2.pygame
 3.cx_Freeze
