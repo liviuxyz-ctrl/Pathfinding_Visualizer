@@ -15,11 +15,11 @@ Just open the executables everything is precompiled so everything should work wi
 
 ## Utilization
 ___
-1. First you need to designate your start and end point. Your first two left clicks will asign your start and respective your end point
-2. If you wana put an obstacle you just need to press your right click on the coresponding square. You can also hold your click to place multiples obstacles.
+1. First you need to designate your start and your end point. Your first two left clicks will be asigned to your start position and respective your end position.
+2. If you wanna put an obstacle you just need to press your left click on the coresponding square. You can also hold your click to place multiples obstacles at the same time.
 3. If you want to change any point on the map just press right click instead of left and the coresponding point will be deleted.
 4. After you set up your path you can press SPACE to start the simulation.
-5, If you wanna reset the entire program don't worry you don't need to close it just press C on your keboard 
+5, If you wanna reset the entire program don't worry you don't need to close it just press C on your keyboard 
 6. Have fun when learning how A* works :)
 
 
