@@ -26,5 +26,5 @@ h = the estimated movement cost to move from that given square on the grid to th
 
 
 ## Examples 
-![Simple example](./gifs/simple.gif)
-![Complex example](./gifs/complex.gif)
+![Simple example](./gifs/resized_simple.gif) ![Complex example](./gifs/resized_complex.gif)
+
