@@ -18,6 +18,7 @@ ORANGE = (255, 165 ,0)
 GREY = (128, 128, 128)
 TURQUOISE = (64, 224, 208)
 
+
 #Visualizator code part
 class Spot:
     def __init__(self, row, col, width, total_rows):
@@ -145,11 +146,12 @@ def main(win, width):
                 row, col = get_clicked_pos(pos, ROWS, width)
                 spot = grid[row][col]
 
-                if not start:
+
+                if not start and spot != end:
                     start = spot
                     start.make_start()
 
-                elif not end:
+                elif not end and spot != start:
                     end = spot
                     end.make_end()
 
@@ -157,7 +159,9 @@ def main(win, width):
                     spot.make_barrier()
 
             elif pygame.mouse.get_pressed()[2]:
-                pass
+                if not start:
+                    start = spot
+                    start.make_start()
 
     pygame.quit()
 
