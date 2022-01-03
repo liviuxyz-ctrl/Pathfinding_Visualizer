@@ -37,7 +37,7 @@ g = the movement cost to move from the starting point to a given square on the g
 h = the estimated movement cost to move from that given square on the grid to the final destination. This is often referred to as the heuristic, which is nothing but a kind of smart guess. We really don’t know the actual distance until we find the path, because all sorts of things can be in the way (walls, water, etc.). There can be many ways to calculate this ‘Simpleh’ which are discussed in the later sections.
 
 
-## Building 
+# Building 
 !!For WINDOWS check in the python installer if the  path variables are added. Otherwise you are not gonna have a great timne with pip .Alternativly you can repair your pyhton installion and check that mark there when it ask you if you want to add variables to the path.
  If you have problems this link can help you https://www.activestate.com/resources/quick-reads/how-to-install-pip-on-windows/
 Dependencies
@@ -46,14 +46,14 @@ Dependencies
 3.cx_Freeze
 
 
-# How to install pygame and cx_Freeze
+## How to install pygame and cx_Freeze
 If you want to install pygame you need to use pip( Package management system for Python), running this comand in your terminal:
 
 `pip install pygame`
 
 `pip install cx_Freeze`
 
-# Building the project from source 
+## Building the project from source 
 
 If you want to build the project from source, you need to use the script provided in source code called `setup.py`:
 In Linux OS run: 
