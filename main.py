@@ -6,14 +6,18 @@ WIDTH = 800
 WIN = pygame.display.set_mode((WIDTH, WIDTH))
 pygame.display.set_caption("A* Path Finding Algorithm")
 
+programIcon = pygame.image.load('icon.jpg')
+
+pygame.display.set_icon(programIcon)
+
 #Color codes in RGB
-RED = (255, 0, 0)
-GREEN = (0, 255, 0)
+URANIAN_BLUE = (184, 225, 255)
+MINT_GREEN = (148, 251, 171)
 BLUE = (0, 255, 0)
 YELLOW = (255, 255, 0)
 WHITE = (255, 255, 255)
-BLACK = (0, 0, 0)
-PURPLE = (128, 0, 128)
+DARK_TURQUOISE = (188, 182, 255)
+PURPLE = (223, 239, 202)
 ORANGE = (255, 165 ,0)
 GREY = (128, 128, 128)
 TURQUOISE = (64, 224, 208)
@@ -35,13 +39,13 @@ class Spot:
         return self.row, self.col
 
     def is_closed(self):
-        return self.color == RED
+        return self.color == URANIAN_BLUE
 
     def is_open(self):
-        return self.color == GREEN
+        return self.color == MINT_GREEN
 
     def is_barrier(self):
-        return self.color == BLACK
+        return self.color == DARK_TURQUOISE
 
     def is_start(self):
         return self.color == ORANGE
@@ -56,13 +60,13 @@ class Spot:
         self.color = ORANGE
 
     def make_closed(self):
-        self.color = RED
+        self.color = URANIAN_BLUE
 
     def make_open(self):
-        self.color = GREEN
+        self.color = MINT_GREEN
 
     def make_barrier(self):
-        self.color = BLACK
+        self.color = DARK_TURQUOISE
 
     def make_end(self):
         self.color = TURQUOISE
