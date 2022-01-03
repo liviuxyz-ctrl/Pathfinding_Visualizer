@@ -57,7 +57,7 @@ Alternatively you can repair your python installation and check when it ask you 
 
 
 ## How to install pygame and cx_Freeze
-If you want to install pygame you need to use pip( Package management system for Python), running this comand in your terminal:
+If you want to install pygame and cx_Freeze you need to use `pip` running this command in your terminal of choice:
 
 `pip install pygame`
 
