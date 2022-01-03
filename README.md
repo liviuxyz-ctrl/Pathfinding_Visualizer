@@ -9,6 +9,7 @@ Informally speaking, A* Search algorithms, unlike other traversal techniques, it
 And it is also worth mentioning that many games and web-based maps use this algorithm to find the shortest path very efficiently (approximation). 
 ___
 ## Setup 
+Just open the execubles everthing is precompiled so everything should work wihout a problem :))
 
 ## Utilization
 ___
