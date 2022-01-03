@@ -55,12 +55,12 @@ If you want to install pygame you need to use pip( Package management system for
 
 # Building the project from source 
 
-If you want to build the project from source, you need to use the script provided in source code called `setup.py`.
-Linux 
+If you want to build the project from source, you need to use the script provided in source code called `setup.py`:
+In Linux OS run: 
 `python setup.py build`
 
-Windows 
+In Windows run:
 `python setup.py bdist_msi`
 
-MacOs
+In MacOs run:
 `python setup.py bdist_dmg`
