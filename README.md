@@ -11,7 +11,13 @@ And it is also worth mentioning that many games and web-based maps use this algo
 ##Setup //TODO
 Simple
 
-
+#Utilization
+1.First you need to designate your start and end point. Your first two left clicks will asign your start and respective your end point
+2.If you wana put an obstacle you just need to press your right click on the coresponding square. You can also hold your click to place multiples obstacles.
+3.If you want to change any point on the map just press right click instead of left and the coresponding point will be deleted.
+4.After you set up your path you can press SPACE to start the simulation.
+5,If you wanna reset the entire program don't worry you don't need to close it just press C on your keboard 
+6.Have fun when learning how A* works :)
 
 
 
@@ -26,5 +32,5 @@ h = the estimated movement cost to move from that given square on the grid to th
 
 
 ## Examples 
-![Simple example](./gifs/resized_simple.gif) ![Complex example](./gifs/resized_complex.gif)
+![Simple example](./gifs/resized_simple.gif)              ![Complex example](./gifs/resized_complex.gif)
 
