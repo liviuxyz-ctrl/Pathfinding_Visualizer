@@ -18,7 +18,7 @@ ___
 2. If you wanna put an obstacle you just need to press your left click on the coresponding square. You can also hold your click to place multiples obstacles at the same time.
 3. If you want to change any point on the map just press right click instead of left and the coresponding point will be deleted.
 4. After you set up your path you can press SPACE to start the simulation.
-5, If you wanna reset the entire program don't worry you don't need to close it just press C on your keyboard 
+5. If you wanna reset the entire program don't worry you don't need to close it just press C on your keyboard 
 6. Have fun when learning how A* works :)
 
 
